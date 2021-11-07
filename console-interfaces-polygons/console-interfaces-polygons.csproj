@@ -6,4 +6,8 @@
     <RootNamespace>console_interfaces_polygons</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\library-interfaces-polygons\library-interfaces-polygons.csproj" />
+  </ItemGroup>
+
 </Project>

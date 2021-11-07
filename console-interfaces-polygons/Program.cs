@@ -1,4 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using library_interfaces_polygons;
 
 namespace console_interfaces_polygons
 {
@@ -10,11 +15,14 @@ namespace console_interfaces_polygons
             var square = new Square(5);
             DisplayPolygon("Square", square);
 
-            //
+            //using abstract class
+            var triangle = new Triangle(5);
+            DisplayPolygon("Triangle", triangle);
 
 
             //
 
+            Console.Read();
         }
 
         //additional off topic

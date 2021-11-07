@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace library_interfaces_polygons
 {
-    //concrete class
-    public class Square : ConcreteRegularPolygon
+    //abstract class
+    public class Triangle : AbstractRegularPolygon
     {
         //base constructor
-        public Square(int length) : base(4, length)
+        public Triangle(int length) : base(4, length)
         { }
 
         //each polygon has its own method
-        //not forced to provide child method here
+        //MUST be implemented as an inherited member (compile error)
         public override double GetArea()
         {
-            return SideLength * SideLength;
+            return SideLength * SideLength * Math.Sqrt(3) / 4;
         }
 
     }

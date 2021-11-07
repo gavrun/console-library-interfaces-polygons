@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "console-interfaces-polygons", "console-interfaces-polygons\console-interfaces-polygons.csproj", "{739C2319-116F-4BA6-9F1F-E4F067A6464E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FE60D073-73CE-4E40-B417-EC9D1B9061CE} = {FE60D073-73CE-4E40-B417-EC9D1B9061CE}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "library-interfaces-polygons", "library-interfaces-polygons\library-interfaces-polygons.csproj", "{FE60D073-73CE-4E40-B417-EC9D1B9061CE}"
 EndProject
