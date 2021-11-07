@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "console-interfaces-polygons", "console-interfaces-polygons\console-interfaces-polygons.csproj", "{739C2319-116F-4BA6-9F1F-E4F067A6464E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "library-interfaces-polygons", "library-interfaces-polygons\library-interfaces-polygons.csproj", "{FE60D073-73CE-4E40-B417-EC9D1B9061CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{739C2319-116F-4BA6-9F1F-E4F067A6464E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{739C2319-116F-4BA6-9F1F-E4F067A6464E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{739C2319-116F-4BA6-9F1F-E4F067A6464E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{739C2319-116F-4BA6-9F1F-E4F067A6464E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE60D073-73CE-4E40-B417-EC9D1B9061CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE60D073-73CE-4E40-B417-EC9D1B9061CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE60D073-73CE-4E40-B417-EC9D1B9061CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE60D073-73CE-4E40-B417-EC9D1B9061CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCAF0B0E-19E9-436B-B4AB-B4E270939E21}
+	EndGlobalSection
+EndGlobal
