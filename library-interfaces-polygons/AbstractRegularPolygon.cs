@@ -20,7 +20,7 @@ namespace library_interfaces_polygons
             SideLength = length;
         }
 
-        //method
+        //method for all polygones is the same
         public double GetPerimeter()
         {
             return NumberOfSides * SideLength;

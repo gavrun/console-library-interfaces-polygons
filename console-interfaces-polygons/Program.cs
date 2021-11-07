@@ -19,8 +19,9 @@ namespace console_interfaces_polygons
             var triangle = new Triangle(5);
             DisplayPolygon("Triangle", triangle);
 
-
-            //
+            //using interface
+            var octagon = new Octagon(5);
+            DisplayPolygon("Octagon", octagon);
 
             Console.Read();
         }

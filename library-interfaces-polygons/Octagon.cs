@@ -6,40 +6,32 @@ using System.Threading.Tasks;
 
 namespace library_interfaces_polygons
 {
-    //concrete class
-    public class ConcreteRegularPolygon
+    //interface class
+    public class Octagon : Object, IRegularPolygon //everything inherited from Object class anyway
     {
         //automatic properties
         public int NumberOfSides { get; set; }
-        //public int SideLength { get; set; }
-
-        //full property
-        private int sideLength;
-
-        //private is default
-        public int SideLength
-        {
-            get { return sideLength; }
-            set { sideLength = value; }
-        }
+        public int SideLength { get; set; }
 
         //constructor
-        public ConcreteRegularPolygon(int sides, int length)
+        public Octagon(int length)
         {
-            NumberOfSides = sides;
+            NumberOfSides = 8;
             SideLength = length;
         }
 
         //method for all polygones is the same
+        //MUST be implemented as an inherited member
         public double GetPerimeter()
         {
             return NumberOfSides * SideLength;
         }
 
         //each polygon has its own method
-        public virtual double GetArea()
+        //MUST be implemented as an inherited member
+        public double GetArea()
         {
-            throw new NotImplementedException();
+            return SideLength * SideLength * (2 + 2 * Math.Sqrt(2));
         }
     }
 }
